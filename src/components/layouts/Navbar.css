@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    flex-basis: 250px;
+    background-color: #D8BFD8;
+}
+
+.navbar nav {
+    flex: 1;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    flex: 1;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #4B0082;
+}
+
+.navbar li a:hover {
+    background-color: #E6C8FA;
+}

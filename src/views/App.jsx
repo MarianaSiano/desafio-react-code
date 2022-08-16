@@ -1,24 +1,17 @@
-//Importes
-//CSS
 import './App.css';
-
-//React
 import React from 'react';
-
-//Router
 import { BrowserRouter as Router } from 'react-router-dom';
 
-//Components
-import Menu from '../components/layouts/Navbar';
-import Content from '../components/layouts/Content';
+import Navbar from '../components/layouts/Navbar';
+import Contents from '../components/layouts/Contents';
 
 const App = props => (
   <div className='App'>
     <Router>
-      <Menu />
-      <Content />
+      <Navbar />
+      <Contents />
     </Router>
   </div>
 )
 
-export default App;
+export default App

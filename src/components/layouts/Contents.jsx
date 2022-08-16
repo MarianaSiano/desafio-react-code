@@ -14,7 +14,7 @@ const Content = props => (
         <Routes>
             <Route exact path='/' element={<Home />} />
 
-            <Route path='/about' element={<Sobre />} />
+            <Route path='/sobre' element={<Sobre />} />
 
             <Route path='*' element={<NotFound />} />
         </Routes>

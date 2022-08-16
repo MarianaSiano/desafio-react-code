@@ -1,11 +1,14 @@
+//Importe CSS
+import './Navbar.css';
+
 //Importe React
 import React from 'react';
 
 //Importe Router
 import { Link } from 'react-router-dom';
 
-const Menu = props => (
-    <aside className='Menu'>
+const Navbar = props => (
+    <aside className='navbar'>
         <nav>
             <ul>
                 <li>
@@ -20,4 +23,4 @@ const Menu = props => (
     </aside>
 )
 
-export default Menu
+export default Navbar
