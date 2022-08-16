@@ -1,3 +1,6 @@
+//Import CSS
+import './Contents.css'
+
 //Importe React
 import React from 'react';
 
@@ -10,7 +13,7 @@ import Sobre from '../../views/pages/Sobre';
 import NotFound from '../../views/pages/NotFound';
 
 const Content = props => (
-    <main className='Content'>
+    <main className='Contents'>
         <Routes>
             <Route exact path='/' element={<Home />} />
 

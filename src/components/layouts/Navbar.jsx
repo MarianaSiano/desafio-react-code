@@ -8,7 +8,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = props => (
-    <aside className='navbar'>
+    <aside className='Navbar'>
         <nav>
             <ul>
                 <li>
