@@ -9,7 +9,7 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 //Components
-import Menu from '../components/layouts/Menu';
+import Menu from '../components/layouts/Navbar';
 import Content from '../components/layouts/Content';
 
 const App = props => (
