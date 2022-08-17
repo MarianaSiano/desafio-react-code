@@ -6,13 +6,13 @@
 
 .Navbar nav {
     flex: 1;
-    padding: 12px;
+    padding: 15px;
 }
 
 .Navbar ul {
     list-style: none;
     padding: 0;
-    text-align: center;
+    text-align: right;
 }
 
 .Navbar li {
@@ -21,7 +21,7 @@
 
 .Navbar li a {
     flex: 1;
-    padding: 10px;
+    padding: 15px;
     text-decoration: none;
     font-size: 18px;
     color: #4B0082;
