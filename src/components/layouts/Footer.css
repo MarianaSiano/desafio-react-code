@@ -1,9 +1,10 @@
 .Footer {
     background-color: #D8BFD8;
-    padding: 10px;
+    padding: 6px;
+    text-align: center;
 }
 
 .Footer p {
     color: #4B0082;
-    margin: 5px;
+    margin: 6px;
 }

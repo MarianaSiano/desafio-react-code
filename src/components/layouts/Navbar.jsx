@@ -18,6 +18,10 @@ const Navbar = props => (
                 <li>
                     <Link to='/sobre'>Sobre</Link>
                 </li>
+
+                <li>
+                    <Link to='/contato'>Contato</Link>
+                </li>
             </ul>
         </nav>
     </aside>

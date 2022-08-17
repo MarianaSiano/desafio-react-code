@@ -10,6 +10,7 @@ import { Routes, Route } from 'react-router-dom'
 //Importe view
 import Home from '../../views/pages/Home';
 import Sobre from '../../views/pages/Sobre';
+import Contact from '../../views/pages/Contact'
 import NotFound from '../../views/pages/NotFound';
 
 const Content = props => (
@@ -18,6 +19,8 @@ const Content = props => (
             <Route exact path='/' element={<Home />} />
 
             <Route path='/sobre' element={<Sobre />} />
+
+            <Route path='/Contact' element={<Contact />} />
 
             <Route path='*' element={<NotFound />} />
         </Routes>
