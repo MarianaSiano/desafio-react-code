@@ -1,5 +1,5 @@
 //Importe CSS
-import './Navbar.css';
+import '../css/Navbar.css';
 
 //Importe React
 import React from 'react';

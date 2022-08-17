@@ -1,5 +1,5 @@
 //Import CSS
-import './Contents.css'
+import '../css/Contents.css'
 
 //Importe React
 import React from 'react';

@@ -1,4 +1,4 @@
-import './NotFound.css'
+import './css/NotFound.css'
 import React from "react";
 
 const NotFound = props => (

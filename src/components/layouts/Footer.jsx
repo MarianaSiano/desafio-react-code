@@ -1,5 +1,5 @@
 //Importe CSS
-import './Footer.css';
+import '../css/Footer.css';
 
 //Importe React
 import React from 'react';

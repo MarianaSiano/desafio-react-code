@@ -1,4 +1,4 @@
-import './Sobre.css'
+import './css/Sobre.css'
 import React from "react";
 
 const Sobre = props => {
