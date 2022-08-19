@@ -1,4 +1,5 @@
 import './css/Login.css';
+
 import React from "react";
 import { useState } from 'react';
 import PageTitle from '../../components/layouts/PageTitle';
@@ -16,7 +17,7 @@ const Login = props => {
             </div>
 
             <div className='senha'>
-                <input type="password" className="input"placeholder='senha' value={senha} onChange={e => setSenha(e.target.value)} />
+                <input type="password" className="input" placeholder='senha' value={senha} onChange={e => setSenha(e.target.value)} />
             </div>
         </div>
     )

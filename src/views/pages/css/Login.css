@@ -1,0 +1,13 @@
+.Login {
+    text-align: center;
+}
+
+.Login input {
+    font-size: 20px;
+    width: 300px;
+}
+
+.Login .email {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
