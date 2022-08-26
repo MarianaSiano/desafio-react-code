@@ -5,8 +5,8 @@ const Sobre = props => {
     return (
         <div className="Sobre">
             <h3>Quem Somos</h3>
-            <p>Nossa Empresa Júnior é uma empresa de tecnologia, atuando no mercado júnior deste o ano de 2000.</p>
-            <p>Trabalhamos com sites e aplicativos com as tecnologias mais recentes e mais competitivas do mercado, além de trabalharmos com serviços para computadores e notebooks.</p>
+            <p>Nossa Empresa Júnior é uma empresa de consultoria na área de transportes, atuando desde 1992.</p>
+            <p>Trabalhamos com consultoria em diversos transportes comerciais, como aviões bimotores, trens e caminhões.</p>
         </div>
     )
 }

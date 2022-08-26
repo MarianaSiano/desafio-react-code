@@ -13,9 +13,21 @@
 }
 
 .Login .btn {
+    font-weight: bold;
     width: 70px;
     height: 30px;
     margin-top: 20px;
     background-color: #FFB1A5;
+    border-color: #FFB1A5;
     border-radius: 10px;
+}
+
+.Login .btn:hover {
+    font-weight: bold;
+    background-color: #FFBBA5;
+    border-color: #FFBBA5;
+}
+
+.Login #password {
+    font-size: 20px;
 }
