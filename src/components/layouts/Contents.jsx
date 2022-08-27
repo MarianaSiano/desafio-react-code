@@ -21,7 +21,7 @@ const Content = props => (
 
             <Route path='/sobre' element={<Sobre />} />
 
-            <Route path='/conta' element={<Contact />} />
+            <Route path='/contato' element={<Contact />} />
 
             <Route path='/login' element={<Login />} />
 
