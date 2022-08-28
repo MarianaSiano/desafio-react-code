@@ -12,6 +12,7 @@ import Home from '../../views/pages/Home';
 import Sobre from '../../views/pages/Sobre';
 import Contact from '../../views/pages/Contact';
 import Login from '../../views/pages/Login';
+import Membros from '../../views/pages/Membros';
 import NotFound from '../../views/pages/NotFound';
 
 const Content = props => (
@@ -22,6 +23,8 @@ const Content = props => (
             <Route path='/sobre' element={<Sobre />} />
 
             <Route path='/contato' element={<Contact />} />
+
+            <Route path='/membros' element={<Membros />} />
 
             <Route path='/login' element={<Login />} />
 

@@ -6,13 +6,18 @@
     margin: 15px;
     display: flex;
     flex-direction: column;
-    min-width: 500px;
-    max-width: 500px;
+    min-width: 400px;
+    max-width: 400px;
 }
 
-.Card .Members {
+.Card .Empresa {
     background-color: #F5F5F5;
     color: #000000;
     padding: 10px;
-    flex-grow: 1;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.Card .Empresa h1, h2 {
+    text-align: center;
 }

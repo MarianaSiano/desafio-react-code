@@ -1,15 +1,15 @@
 import '../css/Card.css'
 import React from "react";
 
-export default props => {
-    const cardStyle = {
-        backgroudColor: '#FFB1A5',
-        borderColor: '#FFBBA5'
-    }
+export default function Card(props) {
     return (
         <div className="Card">
-            <div className="Members">
-                {props.children}
+            <div className="Empresa">
+                <h1>{props.name}</h1>
+                <h2>{props.email}</h2>
+                <h2>{props.office}</h2>
+                <h2>{props.departaments}</h2>
+                <h2>{props.birthday}</h2>
             </div>
         </div>
     )
