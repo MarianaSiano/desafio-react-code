@@ -6,7 +6,7 @@
 
 .Navbar nav {
     flex: 1;
-    padding: 15px;
+    padding: 40px;
 }
 
 .Navbar ul {
@@ -17,6 +17,7 @@
 
 .Navbar li {
     display: inline-block;
+    padding-right: 3px;
 }
 
 .Navbar li a {
@@ -29,4 +30,10 @@
 
 .Navbar li a:hover {
     background-color: #E6C8FA;
+}
+
+.Navbar .Logo img {
+    padding-left: 15px;
+    padding-top: 5px;
+    width: 100px;
 }

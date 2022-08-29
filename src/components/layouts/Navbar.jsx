@@ -7,28 +7,34 @@ import React from 'react';
 //Importe Router
 import { Link } from 'react-router-dom';
 
-const Navbar = props => (
-    <aside className='Navbar'>
-        <nav className='links'>
-            <ul>
-                <li>
-                    <Link to='/'>Home</Link>
-                </li>
+export default function Navbar(props) {
+    return (
+        <aside className='Navbar'>
+            <div className='Logo'>
+                <Link to='/home'>
+                    <img className='img-logo' src='img/logisticajr.png' />
+                </Link>
+            </div>
 
-                <li>
-                    <Link to='/sobre'>Sobre</Link>
-                </li>
+            <nav className='links'>
+                <ul>
+                    <li>
+                        <Link to='/'>Home</Link>
+                    </li>
 
-                <li>
-                    <Link to='/contato'>Contato</Link>
-                </li>
+                    <li>
+                        <Link to='/sobre'>Sobre</Link>
+                    </li>
 
-                <li>
-                    <Link to='/login'>Login</Link>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-)
+                    <li>
+                        <Link to='/contato'>Contato</Link>
+                    </li>
 
-export default Navbar
+                    <li>
+                        <Link to='/login'>Login</Link>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    )
+}
