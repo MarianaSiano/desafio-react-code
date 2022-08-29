@@ -1,17 +1,13 @@
 .Membros .Juniores {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     align-content: space-between;
     justify-content: center;
     flex-grow: 1;
 }
 
-.Membros .Juniores h1 {
+.Membros h1 {
     text-align: center;
     padding-bottom: 10px;
-    flex-flow: row wrap;
-}
-
-.Membros .Card {
-    display: flex;
-    flex-wrap: wrap;
 }

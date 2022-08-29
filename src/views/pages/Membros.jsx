@@ -23,8 +23,9 @@ export default function Membros() {
 
     return (
         <div className="Membros">
+            <h1>Membros da Empresa</h1>
             <div className="Juniores">
-                <h1>Membros da Empresa</h1>
+                <br />
                 {    
                     membros.map((membro, index) => (
                         <Card key={index} 
