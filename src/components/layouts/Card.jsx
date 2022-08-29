@@ -5,11 +5,11 @@ export default function Card(props) {
     return (
         <div className="Card">
             <div className="Empresa">
-                <h1>{props.name}</h1>
-                <h2>{props.email}</h2>
-                <h2>{props.office}</h2>
-                <h2>{props.departaments}</h2>
-                <h2>{props.birthday}</h2>
+                <h2>{props.name}</h2>
+                <h3>{props.email}</h3>
+                <h3>{props.office}</h3>
+                <h3>{props.departaments}</h3>
+                <h3>{props.birthday}</h3>
             </div>
         </div>
     )
