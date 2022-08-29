@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = props => (
     <aside className='Navbar'>
-        <nav>
+        <nav className='links'>
             <ul>
                 <li>
                     <Link to='/'>Home</Link>
