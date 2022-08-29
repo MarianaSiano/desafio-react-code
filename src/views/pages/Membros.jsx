@@ -33,7 +33,7 @@ export default function Membros() {
                         name={membro.name}
                         email={membro.email}
                         office={membro.cargo}
-                        departaments={membro.departamento}
+                        departaments={membro.departamentos}
                         birthday={membro.aniversario}
                         />
                         

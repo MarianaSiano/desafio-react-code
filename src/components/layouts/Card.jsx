@@ -8,7 +8,7 @@ export default function Card(props) {
                 <h2>{props.name}</h2>
                 <h3>{props.email}</h3>
                 <h3>{props.office}</h3>
-                <h3>{props.departaments}</h3>
+                <h3>{props.departaments.map(index => index + '; ')}</h3>
                 <h3>{props.birthday}</h3>
             </div>
         </div>
