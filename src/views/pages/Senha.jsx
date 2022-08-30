@@ -12,7 +12,7 @@ const Senha = props => {
 
             <div className='img'>
                 <Link to=''>
-                    <img className='imgEj' src='img/moverjr.png' height='360px' width='410px' />
+                    <img className='imgEj' src='img/moverjr.png' height='400px' width='430px' />
                 </Link>
             </div>
 
