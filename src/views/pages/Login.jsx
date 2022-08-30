@@ -11,7 +11,7 @@ const Login = props => {
 
             <form method='' action='/login'>                
                 <div className='email'>
-                    <label htmlFor="password" id='password'><p>Login (E-mail cadastrado)</p></label>
+                    <label htmlFor="login" id='login'><p>Login (E-mail cadastrado)</p></label>
                     <input type="text" className="input" placeholder="E-mail" />
                 </div>
 
@@ -31,7 +31,7 @@ const Login = props => {
 
                 
                 <div id='ehMembro'>
-                    <span>Já é membro? <Link to='#'>Cadastre-se</Link></span>
+                    <span>Já é membro? <Link to='/cadastro'>Cadastre-se</Link></span>
                 </div>
 
                 <div id='forgotPassword'>

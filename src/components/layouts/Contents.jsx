@@ -11,8 +11,9 @@ import { Routes, Route } from 'react-router-dom'
 import Home from '../../views/pages/Home';
 import Sobre from '../../views/pages/Sobre';
 import Contact from '../../views/pages/Contact';
-import Login from '../../views/pages/Login';
 import Membros from '../../views/pages/Membros';
+import Login from '../../views/pages/Login';
+import Cadastro from '../../views/pages/Cadastro';
 import NotFound from '../../views/pages/NotFound';
 
 const Content = props => (
@@ -27,6 +28,8 @@ const Content = props => (
             <Route path='/membros' element={<Membros />} />
 
             <Route path='/login' element={<Login />} />
+
+            <Route path='/cadastro' element={<Cadastro />} />
 
             <Route path='*' element={<NotFound />} />
         </Routes>
