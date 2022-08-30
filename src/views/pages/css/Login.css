@@ -7,6 +7,17 @@
     width: 300px;
 }
 
+.Login p {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.Login a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #4B0082;
+}
+
 .Login .email {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -28,16 +39,11 @@
     border-color: #FFBBA5;
 }
 
-.Login p {
-    font-size: 20px;
-}
-
-.Login #forgotPassword {
+.Login #ehMembro {
+    padding-bottom: 5px;
     padding-top: 15px;
 }
 
-.Login a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #4B0082;
+.Login #forgotPassword {
+    padding-top: 5px;
 }
