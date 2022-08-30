@@ -1,7 +1,11 @@
+//Importe css
 import './css/Login.css';
 
+//Importe React
 import React from "react";
 import { Link } from 'react-router-dom';
+
+//Importe Components
 import PageTitle from '../../components/layouts/PageTitle';
 
 const Login = props => {
@@ -12,12 +16,12 @@ const Login = props => {
             <form method='' action='/login'>                
                 <div className='email'>
                     <label htmlFor="login" id='login'><p>Login (E-mail cadastrado)</p></label>
-                    <input type="text" className="input" placeholder="E-mail" />
+                    <input type="text" className="login" placeholder="E-mail" />
                 </div>
 
                 <div className='senha'>
                     <label htmlFor="password" id='password'><p>Senha</p></label>
-                    <input type="password" className="input" placeholder='Senha' />
+                    <input type="password" className="password" placeholder='Senha' />
                 </div>
 
                 <Link to='/'>

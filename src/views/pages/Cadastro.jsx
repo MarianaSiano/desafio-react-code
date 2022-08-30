@@ -19,32 +19,32 @@ const Cadastro = props => {
             <form action="" className="formCadastro">
                 <div className='email'>
                     <label htmlFor="email" id='email'><p>E-mail</p></label>
-                    <input type="text" className="input" placeholder="E-mail" />
+                    <input type="text" className="email" placeholder="E-mail" />
                 </div>
 
                 <div className='senha'>
                     <label htmlFor="password" id='password'><p>Senha</p></label>
-                    <input type="password" className="input" placeholder='Senha' />
+                    <input type="password" className="password" placeholder='Senha' />
                 </div>
 
                 <div className='nome'>
                     <label htmlFor="nome" id='nome'><p>Nome</p></label>
-                    <input type="text" className="input" placeholder='Nome' />
+                    <input type="text" className="nome" placeholder='Nome' />
                 </div>
 
                 <div className='cargo'>
                     <label htmlFor="cargo" id='cargo'><p>Cargo</p></label>
-                    <input type="text" className="input" placeholder='Cargo' />
+                    <input type="text" className="cargo" placeholder='Cargo' />
                 </div>
 
                 <div className='Departamento'>
                     <label htmlFor="departamento" id='departamento'><p>Departamento</p></label>
-                    <input type="text" className="input" placeholder='Departamento' />
+                    <input type="text" className="departamento" placeholder='Departamento' />
                 </div>
 
                 <div className='aniversario'>
                     <label htmlFor="birthday" id='birthday'><p>Aniversário</p></label>
-                    <input type="text" className="input" placeholder='Aniversário' />
+                    <input type="text" className="birthday" placeholder='Aniversário' />
                 </div>
 
                 <Link to='/membros'>

@@ -19,12 +19,12 @@ const Senha = props => {
             <form action="" className="fogoutPassword">
                 <div className='novaSenha'>
                     <label htmlFor="password" id='password'><p>Digite a nova senha</p></label>
-                    <input type="password" className="input" placeholder='Nova senha' />
+                    <input type="password" className="password" placeholder='Nova senha' />
                 </div>
 
                 <div className='reescreverSenha'>
                     <label htmlFor="password" id='password'><p>Redigite a senha</p></label>
-                    <input type="password" className="input" placeholder='Nova senha' />
+                    <input type="password" className="novaSenha" placeholder='Nova senha' />
                 </div>
 
                 <Link to='/membros'>
