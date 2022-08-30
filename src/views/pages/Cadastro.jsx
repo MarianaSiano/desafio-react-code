@@ -1,3 +1,5 @@
+import './css/Cadastro.css';
+
 import React from "react";
 import { Link } from 'react-router-dom';
 
@@ -6,6 +8,12 @@ const Cadastro = props => {
         <div className="Cadastro">
             <h2>Cadastro</h2>
 
+            <div className='img'>
+                <Link to=''>
+                    <img className='imgEj' src='img/moverjr.png' />
+                </Link>
+            </div>
+            
             <form action="" className="formCadastro">
                 <div className='email'>
                     <label htmlFor="email" id='email'><p>E-mail</p></label>

@@ -1,0 +1,41 @@
+.Cadastro input {
+    font-size: 20px;
+    width: 400px;
+}
+
+.Cadastro p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.Cadastro h2 {
+    margin-left: 100px;
+    color: #FFB1A5;
+    padding-left: 160px;
+}
+
+.Cadastro .formCadastro {
+    margin-left: 100px;
+}
+
+.Cadastro .botao {
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #FFB1A5;
+    border-color: #FFB1A5;
+    border-radius: 10px;
+}
+
+.Cadastro .botao:hover {
+    font-weight: bold;
+    background-color: #FFBBA5;
+    border-color: #FFBBA5;
+}
+
+.Cadastro .img {
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+}
