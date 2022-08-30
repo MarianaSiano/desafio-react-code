@@ -39,5 +39,10 @@
     padding-right: 100px;
     padding-left: 50px;
     padding-bottom: 30px;
-    margin-top: -50px;
+}
+
+.Contact .assunto {
+    height: 100px;
+    margin-bottom: 50px;
+    text-align: justify;
 }

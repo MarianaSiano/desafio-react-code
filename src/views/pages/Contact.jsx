@@ -32,7 +32,7 @@ const Contact = props => {
                     <input type="text" className="telefone" placeholder="Telefone" />
                 </div>
 
-                <div className="assunto">
+                <div id="assunto">
                     <label htmlFor="assunto" id='assunto'><p>Assunto</p></label>
                     <input type="text" className="assunto" placeholder="Assunto" />
                 </div>
