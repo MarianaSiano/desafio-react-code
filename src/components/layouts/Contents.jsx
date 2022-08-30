@@ -7,13 +7,14 @@ import React from 'react';
 //Importe Route
 import { Routes, Route } from 'react-router-dom'
 
-//Importe view
+//Importe views
 import Home from '../../views/pages/Home';
 import Sobre from '../../views/pages/Sobre';
 import Contact from '../../views/pages/Contact';
 import Membros from '../../views/pages/Membros';
 import Login from '../../views/pages/Login';
 import Cadastro from '../../views/pages/Cadastro';
+import Senha from '../../views/pages/Senha';
 import NotFound from '../../views/pages/NotFound';
 
 const Content = props => (
@@ -30,6 +31,8 @@ const Content = props => (
             <Route path='/login' element={<Login />} />
 
             <Route path='/cadastro' element={<Cadastro />} />
+
+            <Route path='/senha' element={<Senha />} />
 
             <Route path='*' element={<NotFound />} />
         </Routes>

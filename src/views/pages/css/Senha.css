@@ -1,0 +1,42 @@
+.Senha input {
+    font-size: 20px;
+    width: 400px;;
+}
+
+.Senha p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.Senha h2 {
+    margin-left: 100px;
+    color: #FFB1A5;
+    padding-left: 160px;
+}
+
+.Senha .fogoutPassword {
+    margin-left: 150px;
+}
+
+.Senha .botaoSenha {
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #FFB1A5;
+    border-color: #FFB1A5;
+    border-radius: 10px;
+}
+
+.Senha .botaoSenha {
+    font-weight: bold;
+    background-color: #FFBBA5;
+    border-color: #FFBBA5;
+}
+
+.Senha .img {
+    float: right;
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}

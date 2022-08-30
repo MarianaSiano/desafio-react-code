@@ -1,5 +1,7 @@
+//Importe css
 import './css/Cadastro.css';
 
+//Importe React
 import React from "react";
 import { Link } from 'react-router-dom';
 

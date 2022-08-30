@@ -35,7 +35,7 @@ const Login = props => {
                 </div>
 
                 <div id='forgotPassword'>
-                    <span><Link to='#'>Esqueceu a senha?</Link></span>
+                    <span><Link to='/senha'>Esqueceu a senha?</Link></span>
                 </div>
             </form>
 
