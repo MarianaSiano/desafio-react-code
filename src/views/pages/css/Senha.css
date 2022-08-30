@@ -26,6 +26,7 @@
     background-color: #FFB1A5;
     border-color: #FFB1A5;
     border-radius: 10px;
+    align-items: center;
 }
 
 .Senha .botaoSenha:hover {

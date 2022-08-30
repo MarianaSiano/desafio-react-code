@@ -1,3 +1,21 @@
 .Sobre {
     text-align: justify;
 }
+
+.Sobre .Empresarial {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.Sobre .missao {
+    margin-right: 25%;
+}
+
+.Sobre .visao {
+    margin-right: 25%;
+}
+.Sobre .valores {
+    margin-right: 25%;
+}

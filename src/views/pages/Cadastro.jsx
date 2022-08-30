@@ -10,7 +10,7 @@ const Cadastro = props => {
         <div className="Cadastro">
             <h2>Cadastro</h2>
 
-            <div className='img'>
+            <div className='img-Ej'>
                 <Link to=''>
                     <img className='imgEj' src='img/moverjr.png' />
                 </Link>
