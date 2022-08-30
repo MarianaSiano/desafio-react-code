@@ -1,6 +1,6 @@
 .Senha input {
     font-size: 20px;
-    width: 400px;;
+    width: 400px;
 }
 
 .Senha p {
@@ -28,7 +28,7 @@
     border-radius: 10px;
 }
 
-.Senha .botaoSenha {
+.Senha .botaoSenha:hover {
     font-weight: bold;
     background-color: #FFBBA5;
     border-color: #FFBBA5;

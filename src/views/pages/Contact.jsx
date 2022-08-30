@@ -11,12 +11,11 @@ const Contact = props => {
             <h2>Entre em contato conosco!!</h2>
 
             <form action="" className='formContato'>
-
-            <div className='img-Contato'>
-                <Link to=''>
-                    <img className='imgEj' src='img/moverjr.png' height='400px' width='430px' />
-                </Link>
-            </div>
+                <div className='img-Contato'>
+                    <Link to=''>
+                        <img className='imgEj' src='img/moverjr.png' height='400px' width='430px' />
+                    </Link>
+                </div>
 
                 <div className="nome">
                     <label htmlFor="nome" id='nome'><p>Nome</p></label>

@@ -1,0 +1,43 @@
+.Contact input {
+    font-size: 20px;
+    width: 400px;
+}
+
+.Contact p {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.Contact h2 {
+    margin-left: 50px;
+    color: #FFB1A5;
+    padding-left: 160px;
+}
+
+.Contact .formContato {
+    margin-left: 150px;
+}
+
+.Contact .botaoContato {
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: #FFB1A5;
+    border-color: #FFB1A5;
+    border-radius: 10px;
+}
+
+.Contact .botaoContato:hover {
+    font-weight: bold;
+    background-color: #FFBBA5;
+    border-color: #FFBBA5;
+}
+
+.Contact .img-Contato {
+    float: right;
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin-top: -50px;
+}
