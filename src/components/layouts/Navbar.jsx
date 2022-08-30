@@ -11,7 +11,7 @@ export default function Navbar(props) {
     return (
         <aside className='Navbar'>
             <div className='Logo'>
-                <Link to='/home'>
+                <Link to='/'>
                     <img className='img-logo' src='img/logisticajr.png' />
                 </Link>
             </div>
