@@ -47,7 +47,7 @@ const Cadastro = props => {
                     <input type="text" className="birthday" placeholder='Aniversário' />
                 </div>
 
-                <Link to='/membros'>
+                <Link to='/login'>
                     <button className="botao" type="submit">Cadastrar</button>
                 </Link>
             </form>
