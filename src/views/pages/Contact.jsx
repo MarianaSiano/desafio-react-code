@@ -17,29 +17,31 @@ const Contact = props => {
                     </Link>
                 </div>
 
-                <div className="nome">
-                    <label htmlFor="nome" id='nome'><p>Nome</p></label>
-                    <input type="text" className="nome" placeholder="Nome" />
-                </div>
+                <div className="form">
+                    <div className="nome">
+                        <label htmlFor="nome" id='nome'><p>Nome</p></label>
+                        <input type="text" className="nome" placeholder="Nome" />
+                    </div>
 
-                <div className="email">
-                    <label htmlFor="email" id='email'><p>E-mail</p></label>
-                    <input type="text" className="email" placeholder="E-mail" />
-                </div>
+                    <div className="email">
+                        <label htmlFor="email" id='email'><p>E-mail</p></label>
+                        <input type="text" className="email" placeholder="E-mail" />
+                    </div>
 
-                <div className="telefone">
-                    <label htmlFor="Telefone" id='Telefone'><p>Telefone</p></label>
-                    <input type="text" className="telefone" placeholder="Telefone" />
-                </div>
+                    <div className="telefone">
+                        <label htmlFor="Telefone" id='Telefone'><p>Telefone</p></label>
+                        <input type="text" className="telefone" placeholder="Telefone" />
+                    </div>
 
-                <div id="assunto">
-                    <label htmlFor="assunto" id='assunto'><p>Assunto</p></label>
-                    <input type="text" className="assunto" placeholder="Assunto" />
-                </div>
+                    <div id="assunto">
+                        <label htmlFor="assunto" id='assunto'><p>Assunto</p></label>
+                        <input type="text" className="assunto" placeholder="Assunto" />
+                    </div>
 
-                <Link to='/contato'>
-                    <button className="botaoContato" type="submit">Entrar em contato</button>
-                </Link>
+                    <Link to='/contato'>
+                        <button className="botaoContato" type="submit">Entrar em contato</button>
+                    </Link>
+                </div>
             </form>
         </div>
     )

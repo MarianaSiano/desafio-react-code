@@ -1,4 +1,12 @@
+/* Geral */
 .Contents {
     background-color: #E6E6FA;
     padding: 70px 100px 250px 100px;
+}
+
+@media(min-width: 750px) {
+    .Contents {
+        background-color: #E6E6FA;
+        padding: 150px;
+    }
 }
