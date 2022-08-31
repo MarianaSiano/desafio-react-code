@@ -37,7 +37,7 @@ const Contact = props => {
                     <input type="text" className="assunto" placeholder="Assunto" />
                 </div>
 
-                <Link to='/contact'>
+                <Link to='/contato'>
                     <button className="botaoContato" type="submit">Entrar em contato</button>
                 </Link>
             </form>
