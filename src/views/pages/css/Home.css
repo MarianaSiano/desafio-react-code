@@ -1,7 +1,9 @@
+/* Geral */
 .Home {
     text-align: center;
 }
 
+/* Tags */
 .Home p {
     margin-bottom: 20px;
     color: #4B0082;
@@ -23,6 +25,7 @@
     height: 300px;
 }
 
+/* Classes */
 .Home .logo {
     border-radius: 25px;
 }
@@ -42,3 +45,5 @@
     background-color: #FFBBA5;
     border-color: #FFBBA5;
 }
+
+/* Responsividade */

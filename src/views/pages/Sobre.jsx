@@ -20,7 +20,7 @@ const Sobre = props => {
                         <img className='ejMissao' src='img/missao.png' height='200px' width='200px' />
                     </Link>
 
-                    <p>Organizar a Gestão Empresarial e consultar as melhores rotas logísticas dentro e fora da cidade e com o combustível que não tem 0% ou quase isso de malefeitos ao meio ambiente e a saúde da população.</p>
+                    <p>Organizar a Gestão Empresarial e consultar as melhores rotas logísticas dentro e fora da cidade e com o combustível que tenha 0%, ou quase isso, de malefeitos ao meio ambiente e a saúde da população.</p>
                 </div>
                 
                 <div className="visao">
