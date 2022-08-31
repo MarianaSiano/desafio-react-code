@@ -1,3 +1,7 @@
+.Sobre {
+    text-align: center;
+}
+
 .Sobre .Empresarial {
     display: flex;
     flex-direction: row;
@@ -7,6 +11,7 @@
 
 .Sobre .missao {
     margin-right: 20%;
+    margin-left: 7%;
 }
 
 .Sobre .visao {
