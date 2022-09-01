@@ -40,14 +40,14 @@
 
 /* Responsividade */
 @media (max-width: 750px) {
-    .Navbar nav {
-        flex: 1;
-        padding: 10px;
-    }
-    
     .Navbar .Logo img {
         padding-left: 10px;
         padding-top: 10px;
-        width: 80px;
+        width: 200px;
+    }
+
+    .Navbar li {
+        display: block;
+        padding-bottom: 5px;
     }
 }
