@@ -1,4 +1,4 @@
-import Navbar from "./components/layouts/Navbar";
+import Navbar from "../layouts/Navbar";
 
 function openNavbar() {
     var nav = document.getElementById('Navbar');
