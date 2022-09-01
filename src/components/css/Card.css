@@ -18,6 +18,19 @@
     flex-wrap: wrap;
 }
 
-.Card .Empresa h2, h3 {
+.Card .Empresa h2,
+h3 {
     text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 750px) {
+
+    /* Classes */
+    .Card {
+        margin: 10px;
+        flex-direction: row;
+        min-width: 350px;
+        max-width: 350px;
+    }
 }
