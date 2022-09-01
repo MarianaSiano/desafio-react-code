@@ -1,6 +1,9 @@
 //Importe CSS
 import '../css/Navbar.css';
 
+//Importe JavaScript
+import '../../scripts.js';
+
 //Importe React
 import React from 'react';
 
@@ -9,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
     return (
-        <aside className='Navbar'>
+        <aside id='Navbar' className='Navbar'>
             <div className='Logo'>
                 <Link to='/'>
                     <img className='img-logo' src='img/logisticajr.png' />
