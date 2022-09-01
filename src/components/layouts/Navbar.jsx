@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 export default function Navbar(props) {
     return (
-        <aside id='Navbar' className='Navbar'>
+        <aside id='Navbar' className='Navbar novaNavbar'>
             <div className='Logo'>
                 <Link to='/'>
                     <img className='img-logo' src='img/logisticajr.png' />
