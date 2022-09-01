@@ -2,7 +2,7 @@
 import '../css/Navbar.css';
 
 //Importe JavaScript
-import '../../scripts.js';
+import '../js/scripts.js';
 
 //Importe React
 import React from 'react';
