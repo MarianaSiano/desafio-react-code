@@ -75,21 +75,4 @@
     .Home img {
         height: 70%;
     }
-
-    /* Classes */
-    .Home .Apresentacao .entrarContato {
-        font-weight: bold;
-        width: 150px;
-        height: 40px;
-        margin-top: 30px;
-        background-color: #FFB1A5;
-        border-color: #FFB1A5;
-        border-radius: 30px;
-    }
-
-    .Home .Apresentacao .entrarContato:hover {
-        font-weight: bold;
-        background-color: #FFBBA5;
-        border-color: #FFBBA5;
-    }
 }
