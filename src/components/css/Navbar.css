@@ -37,3 +37,17 @@
     padding-top: 5px;
     width: 100px;
 }
+
+/* Responsividade */
+@media (max-width: 750px) {
+    .Navbar nav {
+        flex: 1;
+        padding: 20px;
+    }
+    
+    .Navbar .Logo img {
+        padding-left: 10px;
+        padding-top: 10px;
+        width: 80px;
+    }
+}
